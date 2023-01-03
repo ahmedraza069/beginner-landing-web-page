@@ -1,0 +1,572 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+/*---===================================================
+================Menubar Start============================
+==========================================================*/
+#navbar{
+    padding: 30px 0;
+}
+#navbar .main{
+    height: 151px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar .img{
+    width: 115px;
+    height: 83px;
+}
+#navbar .list_navbar{
+    width: 504px;
+    margin: 0 auto;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar li{
+    display: inline-block;
+}
+#navbar li a{
+    font-size: 18px;
+    font-weight: 500;
+}
+#navbar .button{
+    width: 144px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5956E8;
+    border-radius: 10px;
+}
+#navbar .button a{
+    color: #fff  ;
+}
+#navbar .button:hover{
+    background-color: #fff;
+    border: 1px solid #5956E8;
+
+}
+#navbar .button:hover a{
+    color: #5956E8;
+}
+/*---===================================================
+================Menubar End============================
+==========================================================*/
+
+
+
+
+/*---===================================================
+================Banner Part Start============================
+==========================================================*/
+#banner{
+    padding: 182px 0;
+    background-color: #5956E8;
+}
+#banner .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .write_part{
+    width: 46%;
+}
+#banner h3{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 25px;
+}
+#banner p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+#banner .button{
+    width: 144px;
+    height: 44px;
+    background-color: #fff;
+    color: #5956E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+#banner .image_part{
+    width: 480px;
+    height: 535px;
+}
+#banner .button:hover{
+    background-color: magenta;
+    border: 1px solid #fff;
+
+}
+#navbar .button:hover a{
+    color: #fff;
+}
+
+/*---===================================================
+================Banner Part End============================
+==========================================================*/
+
+/*---===================================================
+================Service Part End============================
+==========================================================*/
+#service{
+    margin-top: 100px;
+  
+}
+#service .container{
+    width: 1170px;
+    margin: 0 auto;
+}
+#service h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#service p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 542px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#service .service_main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+#service .service_part{
+    width: 370px;
+    height: 385px;
+    padding: 63px 48px;
+    display: inline-block;
+    border: 1px solid #5956E8;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#service .service_part i{
+    font-size: 37px;
+    color: #5956E8;
+    border: 1px solid #5956E8;
+    width: 71px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+#service .service_part i:hover{
+    background: linear-gradient(to bottom, #cc00cc 0%, #9966ff 100%);
+    color: #fff;
+}
+
+#service .service_part h3{
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#service .service_part p{
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    text-align: start;
+    line-height: 27px;
+    width: 274px;
+}
+
+
+/*---===================================================
+================Service Part End============================
+==========================================================*/
+
+
+/*---===================================================
+===================Design Part Start============================
+==========================================================*/
+#design{
+    padding: 5px 0;
+}
+#design .container{
+    width: 1170px;
+    margin: 0 auto;
+}
+#design .main{
+    margin-bottom: 50px;
+}
+#design h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#design p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 542px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#design ul{
+    width: 800px;
+    height: 70px;
+    background: rgba(89, 86, 232, 0.05);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+#design li{
+    display: inline-block;
+}
+#design li a{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+#design .image_part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#design .image_part img{
+    width: 270px;
+    height: 319px;
+    margin-bottom: 30px;
+}
+
+
+/*---===================================================
+===================Design Part End============================
+==========================================================*/
+
+
+
+/*---===================================================
+===================Expart Team Member Part Start===================
+==========================================================*/
+#member .container{
+    width: 1170px;
+    max-width: 0 auto;
+}
+#member h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#member p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 542px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#member .image_part{
+    display: flex;
+    justify-content: space-between;
+}
+#member .image_part img{
+    width: 370px;
+    height: 444px;
+    border: 2px solid #5956E8;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}
+#member .down_icon{
+    text-align: center;
+    color: magenta;
+    margin-bottom: 100px;
+}
+#member i{
+    margin-left: 8px;
+}
+
+
+/*---===================================================
+===================Expart Team Member Part End===================
+==========================================================*/
+
+
+
+/*---===================================================
+=====================Customer Service Part Start===================
+==========================================================*/
+#customer .container{
+    width: 1170px;
+    margin: o auto;
+}
+#customer .main h3{
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 30px;
+}
+#customer p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 542px;
+    margin-bottom: 50px;
+}
+#customer .main_part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#customer .one{
+    width: 370px;
+    height: 425px;
+    padding: 48px 0 0 48px ;
+    background: rgba(89, 86, 232, 0.05);
+    border: 1px solid #5956E8;
+    display: inline-block;
+    border-radius: 10px;
+}
+#customer .one img{
+    height: 83px;
+    width: 83px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    margin-bottom: 25px;
+}
+#customer .one .icon{
+    text-align: start;
+    margin-bottom: 15px;
+}
+#customer .one i{
+    height: 20px;
+    width: 20px;
+    color: magenta;
+}
+#customer .one p{
+    width: 274px;
+    height: 108px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+#customer .one h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+#customer .one h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+#customer .down_icon{
+    text-align: center;
+    color: magenta;
+    margin-top: 25px;
+}
+#customer .down_icon i{
+    margin-left: 8px;
+}
+/*---===================================================
+=================Customer  Service Part End===================
+==========================================================*/
+
+
+/*---==================================================
+=================Latest News Part Start===================
+==========================================================*/
+#latest{
+    margin-top: 100px;
+}
+#latest .container{
+    width: 1170px;
+    margin: 0 auto;
+}
+#latest .main h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#latest p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 542px;
+    text-align: center;
+    margin: 0 auto;
+}
+#latest .main_part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#latest .main_part .image_part{
+    margin-top: 67px;
+    width: 370px;
+    height: 490px;
+    background: rgba(89, 86, 232, 0.05);;
+    padding: 17px 0 0 19px;
+    border-radius: 10px;
+    border: 1px solid #5956E8;
+}
+#latest .main_part img{
+    width: 332px;
+    height: 198px;
+}
+#latest .main_part .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 212px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 5px;
+}
+#latest .main_part .down_write_part{
+    padding-left: 40px;
+}
+#latest .main_part h3{
+    font-size: 20px;
+    font-weight: 600;  
+    margin-top: 10px;
+    width: 271px;
+    height: 48px;  
+    text-align: start;
+    margin-bottom: 0;
+}
+#latest .main_part p{
+    width: 300px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 15px;
+    text-align: start;
+}
+#latest .main_part a{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: start;
+    margin-top: 10px;
+
+}
+/*---===================================================
+=================Latest News Part End===================
+==========================================================*/
+
+
+/*---===================================================
+=================Footer Part Started===================
+==========================================================*/
+#foooter{
+
+}
+#footer .container{
+    width: 1170px;
+    margin: auto;
+}
+#footer .main{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .images{
+    width: 30%;
+}
+#footer img{
+    margin-bottom: 15px;
+}
+#footer p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+#footer i{
+    font-size: 40px;
+    margin-right: 10px;
+    color: #ff0066;
+}
+#footer .list{
+    width: 48%;
+}
+#footer .list ul{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+#footer .list ul li{
+    display: inline-block;
+}
+#footer .list ul li a{
+    font-size: 20px;
+    font-weight: 600;
+}
+#footer .list ul li ul{
+    display: block;
+}
+#footer .list ul li ul li{
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+#footer .contact{
+    width: 18%;
+}
+#footer .contact ul{
+    display: flex;
+    justify-content: center;
+}
+#footer .contact ul li a{
+    font-size: 20px;
+    font-weight: 600;
+}
+#footer .contact ul li ul{
+    display: block;
+}
+#footer .contact ul li ul li{
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+
+
+/*---===================================================
+=================Footer Part Ended===================
+==========================================================*/
